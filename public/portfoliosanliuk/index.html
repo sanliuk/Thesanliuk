@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuel Hosseini's Portfolio</title>
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Custom Styles -->
+    <style>
+
+        .home-title {
+            font-size: 2em;           /* Adjust the font size as needed */
+            justify-content: center;
+            text-align: center;       /* Centers the title */
+            margin-bottom: 20px;      /* Provides some space below the title */
+            color: yellow;            /* Text color as yellow */
+            text-decoration: none;    /* Removes the underline from the link */
+            transition: color 0.3s;   /* Smooth transition for hover effect */
+        }
+
+        .home-title:hover {
+            color: #ffffff;           /* Slightly different yellow shade for hover */
+        }
+
+        .title {
+        text-transform: uppercase;  /* Makes text uppercase */
+        color: yellow;               /* Text color */
+        font-size: 3em;             /* Makes text larger */
+        text-align: center;         /* Centers text */
+        margin-bottom: 20px;        /* Adds space below title */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: white; /* Imposta il colore del testo di tutto il corpo a bianco */
+            font-weight: bold; /* Imposta il testo di tutto il corpo in grassetto */
+            font-size: 24px; /* Dimensione del testo */
+            background-color: #242424; /* Colore di sfondo scuro per una migliore visibilità del testo bianco */
+            text-align: center; /* Centra il testo e il bottone */
+            padding-top: 20px; /* Aggiunge un po' di spazio sopra per non attaccare al bordo superiore */            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .carousel img, .carousel video {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 0; /* Resetting margin to work nicely with Slick */
+        }
+
+        video {
+            object-fit: cover;
+        }
+        /* Button Styles */
+        button {
+            padding: 10px 20px;
+            background-color: #333;  /* Change color to your liking */
+            color: #fff;             /* Button text color */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, color 0.3s;  /* Smooth transition for hover effect */
+        }
+
+        button:hover {
+            background-color: #555;   /* Hover color */
+            color: #eee;              /* Text hover color */
+        }
+
+        /* Centering Buttons */
+        .center-buttons {
+            display: flex;
+            justify-content: center;  /* Center horizontally */
+            align-items: center;      /* Center vertically */
+            height: 100px;            /* Change based on your requirement */
+        }
+
+        .youtube-button {
+            background-color: red; /* Colore di sfondo rosso */
+            color: white; /* Testo bianco */
+            font-weight: bold; /* Testo in grassetto */
+            border: 2px solid grey; /* Bordi grigi */
+            border-radius: 20px; /* Bordi arrotondati */
+            padding: 10px 20px; /* Padding intorno al testo */
+            text-decoration: none; /* Rimuove il sottolineato dai link */
+            cursor: pointer; /* Cambia il cursore in una mano quando si passa sopra */
+            display: inline-block; /* Permette di applicare padding e margini */
+        }
+
+        .youtube-button:hover {
+            background-color: darkred; /* Colore di sfondo più scuro quando si passa sopra */
+        }
+        .youtube-video-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .youtube-video-container iframe {
+            margin-bottom: 20px; /* Spazio tra i video */
+        }
+        
+
+        /* Aggiunto per l'area del titolo con sfondo */
+        .home-title, .title {
+        color: yellow; /* Colore del testo */
+        /* Outline e shadow: x-offset, y-offset, blur-radius, color */
+        text-shadow:
+            -1px -1px 0 #000,  
+             1px -1px 0 #000,
+            -1px  1px 0 #000,
+             1px  1px 0 #000, /* Questa parte crea l'effetto di outline */
+             2px 2px 4px rgba(0,0,0,0.5); /* Questa parte aggiunge un'ombra morbida per migliorare la leggibilità */
+        }
+
+        /* Aggiunto per l'area del titolo con sfondo */
+        .title-background {
+            background-image: url('portfolioimg/a.png'); /* Imposta l'immagine di sfondo */
+            background-size: cover; /* Assicura che l'immagine di sfondo copra completamente l'area */
+            background-position: center; /* Centra l'immagine di sfondo */
+            text-align: center; /* Centra il testo all'interno del contenitore */
+            padding: 50px 0; /* Aggiungi padding per dare più spazio */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Area del titolo con sfondo immagine -->
+        <div class="title-background">
+            <a href="https://sanliuk.com" class="home-title">Home</a>
+            <h1 class="title">Portfolio</h1>
+        </div>
+        <!-- Carousel for Manuel Hosseini's Portfolio -->
+        <div class="carousel">
+
+            <!-- ... continue similarly for the rest of your videos -->
+    
+            <img src="portfolioimg/photo1645966775.jpeg" alt="Manuel's Work 2">
+            <img src="portfolioimg/photo1646417777.jpeg" alt="Manuel's Work 1">
+            <img src="portfolioimg/photo1661972762.jpeg" alt="Manuel's Work 2">
+            <img src="portfolioimg/untitled (1).png" alt="Manuel's Work 2">
+            <img src="portfolioimg/untitled.png" alt="Manuel's Work 1">
+            <img src="portfolioimg/untitled2.png" alt="Manuel's Work 2">
+            <img src="portfolioimg/untitled10.png" alt="Manuel's Work 2">
+            <img src="portfolioimg/b.jpeg" alt="Manuel's Work 2">
+            <img src="portfolioimg/c.png" alt="Manuel's Work 2">
+            <video controls>
+                <source src="portfolioimg/0001-0240.mp4" type="video/mp4">
+                Il tuo browser non supporta il tag video.
+            </video>        </div>
+        <!-- YouTube Videos Embeds -->
+        <div class="youtube-video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SymXF5_ND6o?si=t9XfM7hq1NNUieu2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0mfSF9bmVE0?si=hXPelKUqTCHSZKu2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/89TQPD1_N68?si=nnCQy5tkMUnoOQGh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/p1jgUdb7uw4?si=LG_4zz5x4H3LcVPp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!-- Inserisci qui il tuo primo video embed da YouTube -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/r7dpMdHXMEs?si=Rlihqwm9iVQ_NWAA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xhcqoIat5LU?si=BS76A3HE4aJnr8pD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/e26B033PJQQ?si=e6YGdqYfa_Xnso05" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5YXxNK01hF0?si=fVOjpTqryaZydHxH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+        </div>
+
+        <p>Watch More on..</p>
+        <a href="https://www.youtube.com/channel/UCgbG6HYcITXhZ0W35lUvFbA" class="youtube-button">YouTube</a>
+
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Slick Carousel JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Initialize the Carousel -->
+    <script>
+        $(document).ready(function(){
+            $('.carousel').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 5000,
+                arrows: true,
+                adaptiveHeight: true
+            });
+        });
+    </script>
+</body>
+
+</html>

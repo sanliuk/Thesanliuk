@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SLK slkspace</title>
+</head>
+<body>
+  <script>
+    // Controllo il tipo di dispositivo
+    if (/iPhone|iPad|iPod/.test(navigator.userAgent)) {
+        // Reindirizzo verso App Store
+        window.location.href = "https://apps.apple.com/app/id6467411651";
+    } else if (/Android/.test(navigator.userAgent)) {
+        // Reindirizzo verso Google Play
+        window.location.href = "https://play.google.com/store/apps/details?id=com.sanliuk.slkspace";
+    } else {
+        // Per altri dispositivi o browser desktop, puoi reindirizzare verso il tuo sito o fornire un messaggio
+        window.location.href = "/app/apps.html";
+    }
+</script>
+</body>
+</html>

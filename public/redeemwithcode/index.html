@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video access</title>
+
+  <style>
+
+    body {
+          background-color: black;
+          color: rgb(22, 242, 10); /* Testo bianco per contrasto */
+          font-family: Arial, sans-serif; /* Font generico per il testo */
+          padding: 20px; /* Spaziatura interna per migliorare la leggibilità */
+        }
+    /* Stile del contenitore del video */
+    #videoContainer {
+      max-width: 800px; /* Larghezza massima del contenitore del video */
+      margin: 20px auto; /* Margine per centrare il contenitore */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombra leggera attorno al video */
+    }
+
+    /* Stile del video */
+    #videoContainer video {
+      width: 60%; /* Riempi completamente il contenitore del video */
+      display: block;
+      outline: none; /* Rimuove il bordo evidenziato quando il video è selezionato */
+    }
+
+  </style>
+</head>
+<body>
+  <label for="codice">Enter the code to access the video:</label>
+  <input type="text" id="codice" />
+  <button onclick="visualizzaVideo()">Go Liuk!</button>
+  <div id="videoContainer"></div>
+
+  <script src="/redeemwithcode/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+.popup-modal {
+  position: fixed;
+  z-index: 1000; /* Assicurati che sia sufficientemente alto per sovrastare altri elementi */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Sfondo semi-trasparente */
+}
+
+.popup-content {
+  background-color: #ffffff;
+  margin: auto; /* Centrato verticalmente e orizzontalmente */
+  padding: 20px;
+  border: 10px solid #f7c200; /* Bordo nero solido come cornice */
+  width: 80%; /* O la larghezza che preferisci */
+  max-width: 600px; /* Imposta una larghezza massima */
+  border-radius: 50px; /* Bordi arrotondati */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra leggera per profondità */
+  position: relative; /* Per posizionamento assoluto di elementi interni, se necessario */
+
+}
+
+.close-btn {
+  color: #aaa;
+  float: right;
+  font-size: 50px; /* Aumenta la dimensione del font */
+  font-weight: bold;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0 10px; /* Aggiunge un po' di padding intorno per una migliore area cliccabile */
+  line-height: 1; /* Assicurati che l'altezza della linea non espanda troppo l'area */
+  margin-top: -10px; /* Opzionale: aggiusta la posizione se necessario */
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: black;
+  transform: scale(1.5); /* Effetto hover: leggermente più grande */
+}
+
+
+/* Stili specifici per l'immagine QR */
+.popup-modal img {
+  max-width: 100%; /* Assicurati che l'immagine si adatti al contenitore */
+  height: auto;
+  border-radius: 10px; /* Opzionale: bordi arrotondati anche per l'immagine */
+}
