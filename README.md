@@ -44,8 +44,11 @@ Give a ⭐ if you like this website!
 ## Add New repository:
 
 git init
+
 git add .
+
 git commit -m "First commit"
+
 git remote add origin https://github.com/sanliuk/Thesanliuk.git
 
 git push -u origin master
