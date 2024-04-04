@@ -41,7 +41,7 @@ You will find all the components used and you can edit your information accordin
 Give a ⭐ if you like this website!
 
 
-Add New repository:
+## Add New repository:
 
 git init
 git add .
@@ -53,7 +53,7 @@ git push -u origin master
 
 
 
-Push on git bash:
+## Push on git bash:
 
 cd ~/Desktop/TheSanLiuk
 
